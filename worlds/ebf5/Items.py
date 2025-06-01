@@ -514,7 +514,10 @@ boosters = [
     ItemData(5461, "milk", [EBF5ItemCategory.BOOSTER], ItemClassification.filler),
 ]
 
-key_items = [ # TODO Label Quest Items
+key_items = [
+    # TODO: Label Quest Items
+    # TODO: Consider which items can be tagged as progressions_skip_balancing (eg: the four orbs and three jewels)
+    # TODO: Consider which items can be tagged as both progression AND useful
     ItemData(5462, "scouter", [EBF5ItemCategory.KEY_ITEM], ItemClassification.filler),                  # Starting Item TODO: Check if actually tied to logic
     ItemData(5463, "oldboots", [EBF5ItemCategory.KEY_ITEM], ItemClassification.filler),                 # Starting Item TODO: Check if actually tied to logic
     ItemData(5464, "magneticboots", [EBF5ItemCategory.KEY_ITEM], ItemClassification.progression),
