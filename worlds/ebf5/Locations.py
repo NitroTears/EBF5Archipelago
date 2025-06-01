@@ -38,13 +38,13 @@ shop_items = {
     location_names.EQUIPMENT_SHOP_ITEM_13: LocationData(5012, "eqsh-13", [EBF5LocationCategory.SHOP]),
     location_names.EQUIPMENT_SHOP_ITEM_14: LocationData(5013, "eqsh-14", [EBF5LocationCategory.SHOP]),
     location_names.EQUIPMENT_SHOP_ITEM_15: LocationData(5014, "eqsh-15", [EBF5LocationCategory.SHOP]),
-    location_names.EQUIPMENT_SHOP_ITEM_16: LocationData(5015, "eqsh-16", [EBF5LocationCategory.SHOP]),
-    location_names.EQUIPMENT_SHOP_ITEM_17: LocationData(5016, "eqsh-17", [EBF5LocationCategory.SHOP]),
-    location_names.EQUIPMENT_SHOP_ITEM_18: LocationData(5017, "eqsh-18", [EBF5LocationCategory.SHOP]),
-    location_names.EQUIPMENT_SHOP_ITEM_19: LocationData(5018, "eqsh-19", [EBF5LocationCategory.SHOP]),
-    location_names.EQUIPMENT_SHOP_ITEM_20: LocationData(5019, "eqsh-20", [EBF5LocationCategory.SHOP]),
-    location_names.EQUIPMENT_SHOP_ITEM_21: LocationData(5020, "eqsh-21", [EBF5LocationCategory.SHOP]),
-    location_names.EQUIPMENT_SHOP_ITEM_22: LocationData(5021, "eqsh-22", [EBF5LocationCategory.SHOP]),
+    location_names.EQUIPMENT_SHOP_ITEM_16: LocationData(5015, "eqsh-16", [EBF5LocationCategory.SHOP, EBF5LocationCategory.SEASONAL]),
+    location_names.EQUIPMENT_SHOP_ITEM_17: LocationData(5016, "eqsh-17", [EBF5LocationCategory.SHOP, EBF5LocationCategory.SEASONAL]),
+    location_names.EQUIPMENT_SHOP_ITEM_18: LocationData(5017, "eqsh-18", [EBF5LocationCategory.SHOP, EBF5LocationCategory.SEASONAL]),
+    location_names.EQUIPMENT_SHOP_ITEM_19: LocationData(5018, "eqsh-19", [EBF5LocationCategory.SHOP, EBF5LocationCategory.SEASONAL]),
+    location_names.EQUIPMENT_SHOP_ITEM_20: LocationData(5019, "eqsh-20", [EBF5LocationCategory.SHOP, EBF5LocationCategory.SEASONAL]),
+    location_names.EQUIPMENT_SHOP_ITEM_21: LocationData(5020, "eqsh-21", [EBF5LocationCategory.SHOP, EBF5LocationCategory.SEASONAL]),
+    location_names.EQUIPMENT_SHOP_ITEM_22: LocationData(5021, "eqsh-22", [EBF5LocationCategory.SHOP, EBF5LocationCategory.SEASONAL]),
 }
 
 chests = {
