@@ -21,5 +21,10 @@ EQUIPMENT_SHOP_ITEM_20 = "Equipment Shop Item 20"
 EQUIPMENT_SHOP_ITEM_21 = "Equipment Shop Item 21"
 EQUIPMENT_SHOP_ITEM_22 = "Equipment Shop Item 22"
 
+CHEST_AFTER_SNOWFLAKE_LEFT = "Chest After Snowflake (Left)"
+CHEST_AFTER_SNOWFLAKE_RIGHT = "Chest After Snowflake (Right)"
+
 CHEST_OUTSIDE_JERRYS_HOUSE = "Chest Outside Jerry's House"
 CHEST_WILD_TROPICS_ENTERANCE = "Chest Wild Tropics Entrance"
+CHEST_WILD_TROPICS_FARM_BLOCK_PUZZLE  = "Chest Wild Tropics Farm (Block Puzzle)"
+CHEST_WILD_TROPICS_FARM_BLOCK_ENEMY  = "Chest Wild Tropics Farm (Behind Enemy)"

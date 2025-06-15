@@ -47,11 +47,18 @@ shop_items = {
     location_names.EQUIPMENT_SHOP_ITEM_22: LocationData(5021, "eqsh-22", [EBF5LocationCategory.SHOP, EBF5LocationCategory.SEASONAL]),
 }
 
-chests = {
-    # Glitch Zone / Undertale Area has no randomisable items (map 138/139)
-    # HOPE HARBOR / WILD TROPICS
-    location_names.CHEST_OUTSIDE_JERRYS_HOUSE: LocationData(0, "21-2-0", [EBF5LocationCategory.CHEST]),
-    location_names.CHEST_WILD_TROPICS_ENTERANCE: LocationData(0, "26-1-1", [EBF5LocationCategory.CHEST]),
+chests = { # Chest locations are marked by ebf wiki co-ordinates, world map co-ords, then map co-ords.
+    # Secret World (Undertale)
+    location_names.CHEST_AFTER_SNOWFLAKE_LEFT: LocationData(0, "139-0-0", [EBF5LocationCategory.CHEST]),                    # H01
+    location_names.CHEST_AFTER_SNOWFLAKE_RIGHT: LocationData(0, "139-1-0", [EBF5LocationCategory.CHEST]),                   # H01
+    # HOPE HARBOR / WILD TROPICS    
+    location_names.CHEST_OUTSIDE_JERRYS_HOUSE: LocationData(0, "21-2-0", [EBF5LocationCategory.CHEST]),                     # A5 - B06
+    location_names.CHEST_WILD_TROPICS_ENTERANCE: LocationData(0, "26-1-1", [EBF5LocationCategory.CHEST]),                   # B4 - P01
+    location_names.CHEST_WILD_TROPICS_FARM_BLOCK_PUZZLE: LocationData(0, "29-3-0", [EBF5LocationCategory.CHEST]),           # A3 - B02
+    location_names.CHEST_WILD_TROPICS_FARM_BLOCK_ENEMY: LocationData(0, "29-2-0", [EBF5LocationCategory.CHEST]),            # A3 - C06
+    location_names.CHEST_WILD_TROPICS_FARM_BLOCK_ENEMY: LocationData(0, "30-3-0", [EBF5LocationCategory.CHEST]),            # B3 - B01
+    location_names.CHEST_WILD_TROPICS_FARM_BLOCK_ENEMY: LocationData(0, "30-5-0", [EBF5LocationCategory.SECRET]),           # B3 - S04
+    location_names.CHEST_WILD_TROPICS_FARM_BLOCK_ENEMY: LocationData(0, "35-1-0", [EBF5LocationCategory.SECRET]),           # C2 - G10
 }
 
 secrets = {
