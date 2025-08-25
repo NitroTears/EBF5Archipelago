@@ -49,16 +49,29 @@ shop_items = {
 
 chests = { # Chest locations are marked by ebf wiki co-ordinates, world map co-ords, then map co-ords.
     # Secret World (Undertale)
-    location_names.CHEST_AFTER_SNOWFLAKE_LEFT: LocationData(0, "139-0-0", [EBF5LocationCategory.CHEST]),                    # H01
-    location_names.CHEST_AFTER_SNOWFLAKE_RIGHT: LocationData(0, "139-1-0", [EBF5LocationCategory.CHEST]),                   # H01
+    location_names.CHEST_AFTER_SNOWFLAKE_LEFT: LocationData(0, "139-0-0", [EBF5LocationCategory.CHEST]),                            # H01
+    location_names.CHEST_AFTER_SNOWFLAKE_RIGHT: LocationData(0, "139-1-0", [EBF5LocationCategory.CHEST]),                           # H01
     # HOPE HARBOR / WILD TROPICS    
-    location_names.CHEST_OUTSIDE_JERRYS_HOUSE: LocationData(0, "21-2-0", [EBF5LocationCategory.CHEST]),                     # A5 - B06
-    location_names.CHEST_WILD_TROPICS_ENTERANCE: LocationData(0, "26-1-1", [EBF5LocationCategory.CHEST]),                   # B4 - P01
-    location_names.CHEST_WILD_TROPICS_FARM_BLOCK_PUZZLE: LocationData(0, "29-3-0", [EBF5LocationCategory.CHEST]),           # A3 - B02
-    location_names.CHEST_WILD_TROPICS_FARM_BLOCK_ENEMY: LocationData(0, "29-2-0", [EBF5LocationCategory.CHEST]),            # A3 - C06
-    location_names.CHEST_WILD_TROPICS_FARM_BLOCK_ENEMY: LocationData(0, "30-3-0", [EBF5LocationCategory.CHEST]),            # B3 - B01
-    location_names.CHEST_WILD_TROPICS_FARM_BLOCK_ENEMY: LocationData(0, "30-5-0", [EBF5LocationCategory.SECRET]),           # B3 - S04
-    location_names.CHEST_WILD_TROPICS_FARM_BLOCK_ENEMY: LocationData(0, "35-1-0", [EBF5LocationCategory.SECRET]),           # C2 - G10
+    location_names.CHEST_OUTSIDE_JERRYS_HOUSE: LocationData(0, "21-2-0", [EBF5LocationCategory.CHEST]),                             # A5 - B06
+    location_names.CHEST_WILD_TROPICS_ENTERANCE: LocationData(0, "26-1-1", [EBF5LocationCategory.CHEST]),                           # B4 - P01
+    location_names.CHEST_WILD_TROPICS_FARM_BLOCK_PUZZLE: LocationData(0, "29-3-0", [EBF5LocationCategory.CHEST]),                   # A3 - B02
+    location_names.CHEST_WILD_TROPICS_FARM_BLOCK_ENEMY: LocationData(0, "29-2-0", [EBF5LocationCategory.CHEST]),                    # A3 - C06
+    location_names.CHEST_WILD_TROPICS_MIDDLE_AREA_SECRET_BUSH: LocationData(0, "30-3-0", [EBF5LocationCategory.CHEST]),             # B3 - B01
+    location_names.CHEST_WILD_TROPICS_MIDDLE_AREA_RIGHT_ENTRANCE_CHEST: LocationData(0, "30-5-0", [EBF5LocationCategory.SECRET]),   # B3 - S04
+    location_names.CHEST_WILD_TROPICS_OUTSIDE_KITCHEN: LocationData(0, "35-1-0", [EBF5LocationCategory.SECRET]),                    # C2 - G10       
+    location_names.PICKUP_SHOVEL: LocationData(0, "33-??-??", [EBF5LocationCategory.PICKUP]), # TODO: INVESTIGATE ACQUIRING SHOVEL  # A2 - K06
+    location_names.CHEST_WILD_TROPICS_MARKET_BEHIND_ENEMY: LocationData(0, "33-1-0", [EBF5LocationCategory.CHEST]),                 # A2 - P02
+    location_names.CHEST_WILD_TROPICS_MARKET_BEHIND_DIRT: LocationData(0, "33-2-0", [EBF5LocationCategory.CHEST]),                  # A2 - C01
+    location_names.CHEST_WILD_TROPICS_MARKET_BEHIND_FOOD_SHOP: LocationData(0, "33-3-0", [EBF5LocationCategory.CHEST]),             # A2 - L02
+    location_names.CHEST_WILD_TROPICS_MARKET_BEHIND_HIGHER_PATH: LocationData(0, "33-4-0", [EBF5LocationCategory.CHEST]),           # A2 - O02
+    location_names.CHEST_MATTS_HOUSE_OTHER_ROOM: LocationData(0, "152-0-0", [EBF5LocationCategory.CHEST]),                          # R05
+    location_names.CHEST_MATTS_HOUSE_LEFT_SOCK_DRAWER: LocationData(0, "152-2-0", [EBF5LocationCategory.SECRET]),                   # D03
+    location_names.CHEST_MATTS_HOUSE_RIGHT_SOCK_DRAWER: LocationData(0, "152-2-0", [EBF5LocationCategory.SECRET]),                  # F03
+    location_names.CHEST_DRAGON_ARMOR_CAVE_BEHIND_ENEMY_LEFT: LocationData(0, "166-0-0", [EBF5LocationCategory.CHEST]),             # D07
+    location_names.CHEST_DRAGON_ARMOR_CAVE_BEHIND_ENEMY_RIGHT: LocationData(0, "166-1-0", [EBF5LocationCategory.CHEST]),            # R05
+    location_names.CHEST_DRAGON_ARMOR_CAVE_CENTER: LocationData(0, "166-3-0", [EBF5LocationCategory.CHEST]),                        # L06
+    location_names.CHEST_INDYS_CAVE_BLOCK_PUZZLE_TOP: LocationData(0, "167-0-0", [EBF5LocationCategory.CHEST]),                     # R05
+    location_names.CHEST_INDYS_CAVE_BLOCK_PUZZLE_BOTTOM: LocationData(0, "167-1-0", [EBF5LocationCategory.CHEST]),                  # R06
 }
 
 secrets = {
