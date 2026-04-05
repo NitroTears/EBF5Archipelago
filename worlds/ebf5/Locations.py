@@ -18,9 +18,39 @@ class LocationData(NamedTuple):
     id: Optional[int]
     game_id: str
     category: list[EBF5LocationCategory]
+'''
+# For all items, the array item will look like the below
+{
+  location_name: LocationData(
+     arbitrary item id for AP,
+     game_id: chess access code, explained below
+     array of item types
+  )
+}
 
+# To explain the item code, look at this example
+if (mapNo == 139)
+{
+    setArea(GLITCH_ZONE);
+    ...
+    maps.objectData = [ {
+             "mc": "chest0",
+             "type": CHEST,
+             "data": [Equips.powerpaw, 1, Items.turnip, 1, Items.poptart, 1]
+          }, {
+             "mc": "chest1",
+             "type": CHEST,
+             "data": [Equips.popedress, 1, Items.bread, 1, Items.riceball, 1]
+          }];
+    ...
+}
+the location CHEST_AFTER_SNOWFLAKE_LEFT can be found here with 139-0-0,
+139 for the mapNo in the if statement
+0 for the index in the maps.objectData
+0 for chestX, in this case chest0
 
-# Item code will either be "{mapNo}-{chestNo}-{itemIndex}" or something epecific like "eqsh-1" for equipment shop item 1.
+It will either be chest access code will either be "{mapNo}-{chestNo}-{itemIndex}" or something epecific like "eqsh-1" for equipment shop item 1.
+'''
 
 shop_items = {
     location_names.EQUIPMENT_SHOP_ITEM_1: LocationData(5000, "eqsh-1", [EBF5LocationCategory.SHOP]),
@@ -47,7 +77,7 @@ shop_items = {
     location_names.EQUIPMENT_SHOP_ITEM_22: LocationData(5021, "eqsh-22", [EBF5LocationCategory.SHOP, EBF5LocationCategory.SEASONAL]),
 }
 
-chests = { # Chest locations are marked by ebf wiki co-ordinates, world map co-ords, then map co-ords.
+chests = { # Chest locations aren't visibly obvious, so I've written comments with a location that is first then world map co-ords (if on world map), then map co-ords (co-ords from EBF Wiki)
     # Secret World (Undertale)
     location_names.CHEST_AFTER_SNOWFLAKE_LEFT: LocationData(0, "139-0-0", [EBF5LocationCategory.CHEST]),                            # H01
     location_names.CHEST_AFTER_SNOWFLAKE_RIGHT: LocationData(0, "139-1-0", [EBF5LocationCategory.CHEST]),                           # H01
