@@ -87,7 +87,7 @@ chests = { # Chest locations aren't visibly obvious, so I've written comments wi
     location_names.CHEST_OUTSIDE_JERRYS_HOUSE: LocationData(0, "21-2-0", [EBF5LocationCategory.CHEST]),                             # A5 - B06
     location_names.CHEST_MATTS_HOUSE_OTHER_ROOM: LocationData(0, "152-0-0", [EBF5LocationCategory.CHEST]),                          # B5(H05) - R05
     location_names.CHEST_MATTS_HOUSE_LEFT_SOCK_DRAWER: LocationData(0, "152-2-0", [EBF5LocationCategory.SECRET]),                   # B5(H05) - D03
-    location_names.CHEST_MATTS_HOUSE_RIGHT_SOCK_DRAWER: LocationData(0, "152-2-0", [EBF5LocationCategory.SECRET]),                  # B5(H05) - F03
+    location_names.CHEST_MATTS_HOUSE_RIGHT_SOCK_DRAWER: LocationData(0, "152-3-0", [EBF5LocationCategory.SECRET]),                  # B5(H05) - F03
     location_names.CHEST_WILD_TROPICS_ENTERANCE: LocationData(0, "26-1-1", [EBF5LocationCategory.CHEST]),                           # B4 - P01
     location_names.CHEST_WILD_TROPICS_FARM_BLOCK_PUZZLE: LocationData(0, "29-3-0", [EBF5LocationCategory.CHEST]),                   # A3 - B02
     location_names.CHEST_WILD_TROPICS_FARM_BLOCK_ENEMY: LocationData(0, "29-2-0", [EBF5LocationCategory.CHEST]),                    # A3 - C06
