@@ -186,7 +186,7 @@ chests = { # Chest locations aren't visibly obvious, so I've written comments wi
     #   MINESHAFT MAZE
     location_names.CHEST_MINESHAFT_MAZE_UPPER_LIGHT_PUZZLE_ROOM: LocationData(0, "208-0-0", [EBF5LocationCategory.CHEST]),                  # I5(F04) | M2(I04) - O05
     location_names.CHEST_MINESHAFT_MAZE_SHOOTING_STAR: LocationData(0, "207-0-0", [EBF5LocationCategory.CHEST]),                            # I5(F04) | M4 - J05
-    location_names.CHEST_MINESHAFT_MAZE_SHOOTING_STAR: LocationData(0, "207-3-3", [EBF5LocationCategory.CHEST]),                            # I5(F04) | H7 - J06
+    location_names.CHEST_MINESHAFT_MAZE_EARTHS_WHISPER: LocationData(0, "207-3-3", [EBF5LocationCategory.CHEST]),                            # I5(F04) | H7 - J06
     location_names.CHEST_MINESHAFT_MAZE_LOWER_LIGHT_PUZZLE_ROOM_LEFT: LocationData(0, "210-0-0", [EBF5LocationCategory.CHEST]),             # I5(F04) | M7(L04) - C07
     location_names.CHEST_MINESHAFT_MAZE_LOWER_LIGHT_PUZZLE_ROOM_RIGHT: LocationData(0, "210-1-1", [EBF5LocationCategory.CHEST]),            # I5(F04) | M7(L04) - R06
     location_names.CHEST_MINESHAFT_MAZE_BOSS_ROOM_BOTTOM: LocationData(0, "209-4-4", [EBF5LocationCategory.CHEST]),                         # I5(F04) | H9(K06) - D09
