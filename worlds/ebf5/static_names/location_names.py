@@ -21,9 +21,11 @@ EQUIPMENT_SHOP_ITEM_20 = "Equipment Shop Item 20"
 EQUIPMENT_SHOP_ITEM_21 = "Equipment Shop Item 21"
 EQUIPMENT_SHOP_ITEM_22 = "Equipment Shop Item 22"
 
+# SNOWFLAKE
 CHEST_AFTER_SNOWFLAKE_LEFT = "Chest (After Snowflake - Left)"
 CHEST_AFTER_SNOWFLAKE_RIGHT = "Chest (After Snowflake - Right)"
 
+# HOPE HARBOR / WILD TROPICS
 CHEST_OUTSIDE_JERRYS_HOUSE = "Chest (Outside Jerry's House)"
 CHEST_WILD_TROPICS_ENTERANCE = "Chest (Wild Tropics Entrance)"
 CHEST_WILD_TROPICS_FARM_BLOCK_PUZZLE  = "Chest (Wild Tropics Farm - Block Puzzle)"
@@ -52,8 +54,10 @@ CHEST_HOPE_HARBOR_EAST_COAST_3_BEHIND_ENEMY = "Chest (Hope Harbor - East Coast 3
 CHEST_HOPE_HARBOR_OUTSIDE_ICE_CAVE_LEFT = "Chest (Hope Harbor - Outside Ice Cave (Left))"
 CHEST_HOPE_HARBOR_OUTSIDE_ICE_CAVE_MIDDLE = "Chest (Hope Harbor - Outside Ice Cave (Middle))"
 CHEST_HOPE_HARBOR_BEHIND_ICE_CAVE = "Chest (Hope Harbor - Behind Ice Cave)"
+#   ICE CAVE
 CHEST_ICE_CAVE_ROOM_2_BEHIND_ENEMY = "Chest (Ice Cave - Second Room - Behind Zircon Ore)"
 CHEST_ICE_CAVE_ROOM_3_BEHIND_ENEMY = "Chest (Ice Cave - Third Room - Behind Viking Monolith)"
+#       FREEZEFLAME DUNGEON
 CHEST_FREEZEFLAME_DUNGEON_BEHIND_ENEMY_LEFT = "Chest (Freezeflame Dungeon - Bottom Room - Behind Icicle Creep)"
 CHEST_FREEZEFLAME_DUNGEON_BEHIND_ENEMY_RIGHT = "Chest (Freezeflame Dungeon - Bottom Room - Behind Obsidian Boulder)"
 CHEST_FREEZEFLAME_DUNGEON_ICE_BLOCK_PUZZLE_ROOM = "Chest (Freezeflame Dungeon - Ice Block Puzzle Room)"
@@ -64,6 +68,7 @@ CHEST_FREEZEFLAME_DUNGEON_BOSS_ROOM_ICE_TOP = "Chest (Freezeflame Dungeon - Boss
 CHEST_FREEZEFLAME_DUNGEON_BOSS_ROOM_FIRE_TOP = "Chest (Freezeflame Dungeon - Boss Room - Top Fire Chest)"
 CHEST_FREEZEFLAME_DUNGEON_BOSS_ROOM_FIRE_BOTTOM = "Chest (Freezeflame Dungeon - Boss Room - Bottom Fire Chest)"
 CHEST_FREEZEFLAME_DUNGEON_BOSS_ROOM_FIRE_MIDDLE = "Chest (Freezeflame Dungeon - Boss Room - Middle Fire Chest)"
+#   GRAND GALLERY
 CHEST_GRAND_GALLERY_ENTRANCE = "Chest (Grand Gallery - Entrance - Right Hedge Maze)"
 CHEST_GRAND_GALLERY_LEFT_MIDDLE_KEY = "Chest (Grand Gallery - Left Hall - Middle Key)"
 CHEST_GRAND_GALLERY_LEFT_TOP_KEY = "Chest (Grand Gallery - Left Hall - Top Key)"
@@ -92,3 +97,41 @@ CHEST_GRAND_GALLERY_70_MEDALS_ROOM_TOP = "Chest (Grand Gallery - 70 Medals Room 
 CHEST_GRAND_GALLERY_70_MEDALS_ROOM_BOTTOM = "Chest (Grand Gallery - 70 Medals Room - Bottom)" 
 CHEST_GRAND_GALLERY_60_MEDALS_ROOM_PUZZLE = "Chest (Grand Gallery - 60 Medals Room - Puzzle)"
 CHEST_GRAND_GALLERY_60_MEDALS_ROOM_BEHIND_ENEMY = "Chest (Grand Gallery - 60 Medals Room - Behind Yellow Flybot)"
+
+# NO MAN'S LAND
+CHEST_NO_MANS_LAND_HARBOR_SECRET = "Chest (No Man's Land (Hope Harbor Secret))"
+CHEST_NO_MANS_LAND_HARBOR_BEHIND_ENEMY = "Chest (No Man's Land - Behind Cat Sniper)"
+CHEST_NO_MANS_LAND_SOUTH_WEST_BEHIND_ENEMY = "Chest (No Man's Land - Behind Blue Creep)"
+CHEST_NO_MANS_LAND_SOUTH_ROOM_2_BEHIND_ENEMY = "Chest (No Man's Land - Anna Room - Behind Blue Flybot)"
+CHEST_NO_MANS_LAND_ARCADE_ROOM = "Chest (No Man's Land - Arcade Room)"
+CHEST_NO_MANS_LAND_EXIT_FORTRESS_LEFT = "Chest (No Man's Land - End of Iron Fortress (Left))"
+CHEST_NO_MANS_LAND_EXIT_FORTRESS_MIDDLE = "Chest (No Man's Land - End of Iron Fortress (Middle))"
+CHEST_NO_MANS_LAND_EXIT_FORTRESS_RIGHT = "Chest (No Man's Land - End of Iron Fortress (Right))"
+#   IRON FORTRESS
+CHEST_IRON_FORTRESS_SUB_ENTRANCE = "Chest (Iron Fortress - No Man's Land Sub Entrance)"
+CHEST_IRON_FORTRESS_SUB_ENTRANCE_MAGNET = "Chest (Iron Fortress - No Man's Land Sub Entrance - Magnet Chest)"
+CHEST_IRON_FORTRESS_SUB_EXIT_BEHIND_ENEMY = "Chest (Iron Fortress - Upper Exit - Behind Red Flybot)"
+CHEST_IRON_FORTRESS_SUB_EXIT_LADDER = "Chest (Iron Fortress - Upper Exit - Ladder)"
+CHEST_IRON_FORTRESS_SUB_EXIT_LEO_TOILET = "Chest (Iron Fortress - Upper Exit - Leo Toilet)"
+CHEST_IRON_FORTRESS_STORAGE_ROOM_BOTTOM_LEFT = "Chest (Iron Fortress - Storage Room (Bottom Left))"
+CHEST_IRON_FORTRESS_STORAGE_ROOM_PAINTING = "Chest (Iron Fortress - Storage Room (Painting))"
+CHEST_IRON_FORTRESS_STORAGE_ROOM_PUZZLE = "Chest (Iron Fortress - Storage Room (Puzzle))"
+CHEST_IRON_FORTRESS_MONOLITH = "Chest (Iron Fortress - Monolith Item)"
+CHEST_IRON_FORTRESS_MONOLITH_ROOM_BEHIND_TOP_ENEMY = "Chest (Iron Fortress - Monolith Room - Behind Metal Idol)"
+CHEST_IRON_FORTRESS_MONOLITH_ROOM_BEHIND_BOTTOM_ENEMY = "Chest (Iron Fortress - Monolith Room - Behind Defender Mk III)"
+CHEST_IRON_FORTRESS_MIDBOSS_ROOM_BEHIND_LANCE = "Chest (Iron Fortress - Light Puzzle Room - Behind Lance)"
+CHEST_IRON_FORTRESS_MIDBOSS_ROOM_BEHIND_ENEMY = "Chest (Iron Fortress - Light Puzzle Room - Behind Jet Fish)"
+CHEST_IRON_FORTRESS_NATALIE_ROOM = "Chest (Iron Fortress - Natalie Room)"
+CHEST_IRON_FORTRESS_LOWER_ARROW_ROOM_ABDUL_CELL = "Chest (Iron Fortress - Lower Arrow Room - Abdul's Cell)"
+CHEST_IRON_FORTRESS_LOWER_ARROW_ROOM_SECRET_STORAGE_LEFT = "Chest (Iron Fortress - Lower Arrow Room - Secret Storage (Left))"
+CHEST_IRON_FORTRESS_LOWER_ARROW_ROOM_SECRET_STORAGE_RIGHT = "Chest (Iron Fortress - Lower Arrow Room - Secret Storage (Right))"
+CHEST_IRON_FORTRESS_UPPER_ARROW_ROOM = "Chest (Iron Fortress - Upper Arrow Room)"
+#   MINESHAFT MAZE
+CHEST_MINESHAFT_MAZE_UPPER_LIGHT_PUZZLE_ROOM = "Chest (Mineshaft Maze - Upper Light Puzzle Room)"
+CHEST_MINESHAFT_MAZE_SHOOTING_STAR = "Chest (Mineshaft Maze - Shooting Star)"
+CHEST_MINESHAFT_MAZE_EARTHS_WHISPER = "Chest (Mineshaft Maze - Earth's Whisper)"
+CHEST_MINESHAFT_MAZE_LOWER_LIGHT_PUZZLE_ROOM_LEFT = "Chest (Mineshaft Maze - Lower Light Puzzle Room (Left))"
+CHEST_MINESHAFT_MAZE_LOWER_LIGHT_PUZZLE_ROOM_RIGHT = "Chest (Mineshaft Maze - Lower Light Puzzle Room (Right))"
+CHEST_MINESHAFT_MAZE_BOSS_ROOM_BOTTOM = "Chest (Mineshaft Maze - Boss Room (Bottom))"
+CHEST_MINESHAFT_MAZE_BOSS_ROOM_LEFT = "Chest (Mineshaft Maze - Boss Room (Left))"
+CHEST_MINESHAFT_MAZE_BOSS_ROOM_RIGHT = "Chest (Mineshaft Maze - Boss Room (Right))"
