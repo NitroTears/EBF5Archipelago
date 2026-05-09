@@ -186,12 +186,64 @@ chests = { # Chest locations aren't visibly obvious, so I've written comments wi
     #   MINESHAFT MAZE
     location_names.CHEST_MINESHAFT_MAZE_UPPER_LIGHT_PUZZLE_ROOM: LocationData(0, "208-0-0", [EBF5LocationCategory.CHEST]),                  # I5(F04) | M2(I04) - O05
     location_names.CHEST_MINESHAFT_MAZE_SHOOTING_STAR: LocationData(0, "207-0-0", [EBF5LocationCategory.CHEST]),                            # I5(F04) | M4 - J05
-    location_names.CHEST_MINESHAFT_MAZE_EARTHS_WHISPER: LocationData(0, "207-3-3", [EBF5LocationCategory.CHEST]),                            # I5(F04) | H7 - J06
+    location_names.CHEST_MINESHAFT_MAZE_EARTHS_WHISPER: LocationData(0, "207-3-3", [EBF5LocationCategory.CHEST]),                           # I5(F04) | H7 - J06
     location_names.CHEST_MINESHAFT_MAZE_LOWER_LIGHT_PUZZLE_ROOM_LEFT: LocationData(0, "210-0-0", [EBF5LocationCategory.CHEST]),             # I5(F04) | M7(L04) - C07
     location_names.CHEST_MINESHAFT_MAZE_LOWER_LIGHT_PUZZLE_ROOM_RIGHT: LocationData(0, "210-1-1", [EBF5LocationCategory.CHEST]),            # I5(F04) | M7(L04) - R06
     location_names.CHEST_MINESHAFT_MAZE_BOSS_ROOM_BOTTOM: LocationData(0, "209-4-4", [EBF5LocationCategory.CHEST]),                         # I5(F04) | H9(K06) - D09
     location_names.CHEST_MINESHAFT_MAZE_BOSS_ROOM_LEFT: LocationData(0, "209-3-3", [EBF5LocationCategory.CHEST]),                           # I5(F04) | H9(K06) - B06
     location_names.CHEST_MINESHAFT_MAZE_BOSS_ROOM_RIGHT: LocationData(0, "209-1-1", [EBF5LocationCategory.CHEST]),                          # I5(F04) | H9(K06) - R06
+    # RAINBOW RIVER
+    location_names.CHEST_RAINBOW_RIVER_FORTRESS_SECRET: LocationData(0, "60-0-2", [EBF5LocationCategory.CHEST]),                            # J5 - C03
+    location_names.CHEST_RAINBOW_RIVER_MIDDLE_ISLAND: LocationData(0, "61-3-4", [EBF5LocationCategory.CHEST]),                              # K5 - C05
+    location_names.CHEST_RAINBOW_RIVER_RIGHT_ISLAND_BOTTOM: LocationData(0, "61-1-1", [EBF5LocationCategory.CHEST]),                        # K5 - N07
+    location_names.CHEST_RAINBOW_RIVER_RIGHT_ISLAND_TOP: LocationData(0, "61-0-0", [EBF5LocationCategory.CHEST]),                           # K5 - S01
+    location_names.CHEST_RAINBOW_RIVER_STREAM_10: LocationData(0, "99-5-7", [EBF5LocationCategory.CHEST]),                                  # K6 - M07
+    location_names.CHEST_RAINBOW_RIVER_STREAM_8: LocationData(0, "97-4-7", [EBF5LocationCategory.CHEST]),                                   # I6 - C11
+    location_names.CHEST_RAINBOW_RIVER_STREAM_6: LocationData(0, "95-0-0", [EBF5LocationCategory.CHEST]),                                   # G6 - C04
+    location_names.CHEST_RAINBOW_RIVER_STREAM_5_RIGHT: LocationData(0, "94-3-3", [EBF5LocationCategory.CHEST]),                             # F6 - Q09
+    location_names.CHEST_RAINBOW_RIVER_STREAM_5_BOTTOM: LocationData(0, "94-2-2", [EBF5LocationCategory.CHEST]),                            # F6 - N11
+    location_names.CHEST_RAINBOW_RIVER_STREAM_3: LocationData(0, "92-4-7", [EBF5LocationCategory.CHEST]),                                   # D6 - N06
+    location_names.CHEST_RAINBOW_RIVER_STREAM_2_SECRET: LocationData(0, "27-8-8", [EBF5LocationCategory.CHEST]),                            # C6 - G04
+    location_names.CHEST_RAINBOW_RIVER_STREAM_2_ENEMY: LocationData(0, "27-8-8", [EBF5LocationCategory.CHEST]),                             # C6 - Q06
+    location_names.CHEST_RAINBOW_RIVER_STREAM_1_FROM_VALLEY: LocationData(0, "90-2-2", [EBF5LocationCategory.CHEST]),                       # B6 - C10
+    # GREENWOOD VILLAGE
+    location_names.CHEST_GREENWOOD_VILLAGE_FARM: LocationData(0, "62-1-1", [EBF5LocationCategory.CHEST]),                                   # J4 - H06
+    location_names.CHEST_GREENWOOD_VILLAGE_BARN_LEFT: LocationData(0, "172-0-0", [EBF5LocationCategory.CHEST]),                             # J4(K03) - F05
+    location_names.CHEST_GREENWOOD_VILLAGE_BARN_RIGHT: LocationData(0, "172-1-1", [EBF5LocationCategory.CHEST]),                            # J4(K03) - H05
+    location_names.CHEST_GREENWOOD_VILLAGE_JAMIES_HOUSE_LEFT: LocationData(0, "175-3-1", [EBF5LocationCategory.CHEST]),                     # K4(P03) - B05
+    location_names.CHEST_GREENWOOD_VILLAGE_JAMIES_HOUSE_RIGHT: LocationData(0, "175-5-3", [EBF5LocationCategory.CHEST]),                    # K4(P03) - S03
+    location_names.CHEST_GREENWOOD_VILLAGE_JAMIES_BASEMENT_LEFT: LocationData(0, "176-2-2", [EBF5LocationCategory.CHEST]),                  # K4(P03)(L02) - A07
+    location_names.CHEST_GREENWOOD_VILLAGE_JAMIES_BASEMENT_BOTTOM: LocationData(0, "176-0-0", [EBF5LocationCategory.CHEST]),                # K4(P03)(L02) - M08
+    location_names.CHEST_GREENWOOD_VILLAGE_JAMIES_BASEMENT_TOP: LocationData(0, "176-1-1", [EBF5LocationCategory.CHEST]),                   # K4(P03)(L02) - K02
+    location_names.CHEST_GREENWOOD_VILLAGE_BEHIND_RANDYS_HOUSE: LocationData(0, "65-2-1", [EBF5LocationCategory.CHEST]),                    # K3 - P02
+    location_names.CHEST_GREENWOOD_VILLAGE_EQUIPMENT_SHOP_LEFT_DRAWER: LocationData(0, "169-7-3", [EBF5LocationCategory.CHEST]),            # K3(J04) - G05
+    location_names.CHEST_GREENWOOD_VILLAGE_EQUIPMENT_SHOP_RIGHT_DRAWER: LocationData(0, "169-6-2", [EBF5LocationCategory.CHEST]),           # K3(J04) - H05
+    location_names.CHEST_GREENWOOD_VILLAGE_EQUIPMENT_SHOP_SECRET_ROOM: LocationData(0, "169-5-1", [EBF5LocationCategory.CHEST]),            # K3(J04) - R03
+    location_names.CHEST_GREENWOOD_VILLAGE_RANDYS_HOUSE_DRAWER: LocationData(0, "171-2-1", [EBF5LocationCategory.CHEST]),                   # K3(P06) - N04
+    location_names.CHEST_GREENWOOD_VILLAGE_STATUES: LocationData(0, "67-2-2", [EBF5LocationCategory.CHEST]),                                # K2 - S02
+    location_names.CHEST_GREENWOOD_VILLAGE_STATUE_ROOM_SECRET_PATH: LocationData(0, "67-1-1", [EBF5LocationCategory.CHEST]),                # K2 - B04    
+    location_names.CHEST_GREENWOOD_VILLAGE_MATERIALS_SHOP: LocationData(0, "177-2-0", [EBF5LocationCategory.CHEST]),                        # K2(F08) - L05
+    location_names.CHEST_GREENWOOD_VILLAGE_BOSH_ARCADE_LEFT: LocationData(0, "332-0-0", [EBF5LocationCategory.CHEST]),                      # K2(D05) - G05 
+    location_names.CHEST_GREENWOOD_VILLAGE_BOSH_ARCADE_RIGHT: LocationData(0, "332-1-1", [EBF5LocationCategory.CHEST]),                     # K2(D05) - N05
+    location_names.CHEST_GREENWOOD_VILLAGE_OUTSIDE_ANNAS_HOUSE_TARGET: LocationData(0, "68-3-4", [EBF5LocationCategory.CHEST]),             # J1 - B08
+    location_names.CHEST_GREENWOOD_VILLAGE_ANNAS_HOUSE_BRONZE_TOP_LEFT: LocationData(0, "173-1-0", [EBF5LocationCategory.CHEST]),           # J1(L06) | J1 - F05
+    location_names.CHEST_GREENWOOD_VILLAGE_ANNAS_HOUSE_BRONZE_BOTTOM_LEFT: LocationData(0, "173-4-3", [EBF5LocationCategory.CHEST]),        # J1(L06) | J1 - F08
+    location_names.CHEST_GREENWOOD_VILLAGE_ANNAS_HOUSE_BRONZE_BOTTOM_RIGHT: LocationData(0, "173-5-4", [EBF5LocationCategory.CHEST]),       # J1(L06) | J1 - O08
+    location_names.CHEST_GREENWOOD_VILLAGE_ANNAS_HOUSE_DRAWER: LocationData(0, "173-2-1", [EBF5LocationCategory.CHEST]),                    # J1(L06) | J1 - L02
+    location_names.CHEST_GREENWOOD_VILLAGE_BLOCK_PUZZLE: LocationData(0, "69-0-1", [EBF5LocationCategory.CHEST]),                           # K1 - B01
+    location_names.CHEST_GREENWOOD_VILLAGE_EGG_SHRINE: LocationData(0, "69-3-4", [EBF5LocationCategory.CHEST]),                             # K1 - L06
+    location_names.CHEST_GREENWOOD_VILLAGE_ORB_SHRINE_BEHIND_ENEMY: LocationData(0, "71-1-2", [EBF5LocationCategory.CHEST]),                # K0 - C09
+    location_names.CHEST_GREENWOOD_VILLAGE_ORB_SHRINE_ORB_SECRET: LocationData(0, "71-2-3", [EBF5LocationCategory.CHEST]),                  # K0 - I03
+    location_names.CHEST_GREENWOOD_VILLAGE_TOTOM_ARCADE_REWARD: LocationData(0, "322-0-0", [EBF5LocationCategory.CHEST]),                   # K0(B01) - K07
+    location_names.CHEST_GREENWOOD_VILLAGE_TOTOM_ARCADE_LEFT_SECRET: LocationData(0, "322-1-1", [EBF5LocationCategory.CHEST]),              # K0(B01) - B08
+    #   LIBRARY
+    location_names.CHEST_LIBRARY_MIDDLE_ROOM_BEHIND_CAT_WIZARD: LocationData(0, "338-5-1", [EBF5LocationCategory.CHEST]),                   # J3(G06) | J2 - E02
+    location_names.CHEST_LIBRARY_MIDDLE_ROOM_BEHIND_PAPER_BOSS_LEFT: LocationData(0, "338-7-3", [EBF5LocationCategory.CHEST]),              # J3(G06) | J2 - H03
+    location_names.CHEST_LIBRARY_MIDDLE_ROOM_BEHIND_PAPER_BOSS_RIGHT: LocationData(0, "338-8-4", [EBF5LocationCategory.CHEST]),             # J3(G06) | J2 - L03
+    location_names.CHEST_LIBRARY_LEFT_ROOM_BEHIND_WISE_MIRROR: LocationData(0, "337-2-0", [EBF5LocationCategory.CHEST]),                    # J3(G06) | I2 - D08
+    location_names.CHEST_LIBRARY_LEFT_ROOM_PAPER_STACK: LocationData(0, "337-5-3", [EBF5LocationCategory.CHEST]),                           # J3(G06) | I2 - D04
+    location_names.CHEST_LIBRARY_RIGHT_ROOM_BOOKSHELF: LocationData(0, "339-4-2", [EBF5LocationCategory.CHEST]),                            # J3(G06) | K2 - H06
+
     
 }
 
