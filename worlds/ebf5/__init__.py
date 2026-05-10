@@ -56,6 +56,5 @@ class EpicBattleFantasy5World(World):
     location_datas = list(shop_items.values()) + list(chests.values()) # we don't have any secrets or pickups yet so im not sure how they'll be structured. 
     for i in range(len(location_datas)):
         location_name_to_id[location_datas[i].game_id] = location_datas[i].id
-
-    #item_name_to_id = {name : id for }
+    
     
