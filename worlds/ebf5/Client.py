@@ -6,13 +6,28 @@ import asyncio
 class EBF5CommandProcessor(ClientCommandProcessor):
     def __init__(self, ctx: EBF5Context):
         super().__init__(ctx)
-        # ^ self.ctx = ctx
 
     def _cmd_ebf5launchercomponenttest(self):
+        """Test command."""
         self.output("_cmd_ebf5launchercomponenttest() was called successfully!")
+
+    def _cmd_debug_unlock_item_test(self, item_AP_name: str = ""):
+        """
+        Unlock an item in game, only for testing/debugging the client. This does not reference AP at all.
+        """
+        if item_AP_name == "":
+            self.output("specify an item name")
+            return False
+        
+        self.output("unimplemented")
     
 class EBF5Context(CommonContext):
     command_processor = EBF5CommandProcessor
+    ebf5_socket = None # TODO!
+
+    # TODO: implement ebf5_address here after i get the command for it working.
+    def __init__(self, server_address: str | None = None, password: str | None = None) -> None:
+        super().__init__(server_address, password)
 
 # General plan:
 # 1. Add a launcher integration and make code run when you press launch.
@@ -24,12 +39,7 @@ class EBF5Context(CommonContext):
 # We'll probably save figuring out patching for later?
 # Presumably we want to start implementing the AP stuff once we can connect to the game.
 
-# OK it looks like the class we need to actually get the UI is GameManager, which we make a child class of.
-# Or actually i think i can just use run_ui, at least for now. Maybe i'll have to make a custom class later.
-
 def launch(*args: str):
-    # This feels relatively undocumented which makes it a bit of a pain to have to manually search through how
-    # other implementations do this to see how i need to do it.
     async def main(args):
         ctx = EBF5Context(args.connect, args.password)
         ctx.server_task = asyncio.create_task(server_loop(ctx), name="server loop")
