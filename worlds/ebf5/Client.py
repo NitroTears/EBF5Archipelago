@@ -18,9 +18,10 @@ class EBF5CommandProcessor(ClientCommandProcessor):
         if item_AP_name == "":
             self.output("specify an item name")
             return False
-        
+
         self.output("unimplemented")
-    
+        return False
+
 class EBF5Context(CommonContext):
     command_processor = EBF5CommandProcessor
     ebf5_socket = None # TODO!
@@ -50,9 +51,9 @@ def launch(*args: str):
 
         await ctx.exit_event.wait()
         await ctx.shutdown()
-    
+
     import colorama
-    
+
     parser = get_base_parser(description="EBF5 client, for text interfacing.")
     parsed_args = parser.parse_args(args)
 
