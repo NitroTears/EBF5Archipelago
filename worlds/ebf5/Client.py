@@ -1,6 +1,11 @@
 from __future__ import annotations
-from CommonClient import ClientCommandProcessor, CommonContext, server_loop, get_base_parser, gui_enabled
+
 import asyncio
+
+from CommonClient import ClientCommandProcessor, CommonContext, get_base_parser, gui_enabled, server_loop
+
+from .AsyncSocket import EBF5AsyncSocket
+
 
 # We're gonna need at least a custom command or two to connect to the game.
 class EBF5CommandProcessor(ClientCommandProcessor):
@@ -13,7 +18,7 @@ class EBF5CommandProcessor(ClientCommandProcessor):
 
     def _cmd_debug_unlock_item_test(self, item_AP_name: str = ""):
         """
-        Unlock an item in game, only for testing/debugging the client. This does not reference AP at all.
+        Unlock an item in game, only for testing/debugging the client. This does not interface with AP at all.
         """
         if item_AP_name == "":
             self.output("specify an item name")
@@ -24,7 +29,7 @@ class EBF5CommandProcessor(ClientCommandProcessor):
 
 class EBF5Context(CommonContext):
     command_processor = EBF5CommandProcessor
-    ebf5_socket = None # TODO!
+    ebf5_socket: EBF5AsyncSocket | None = None
 
     # TODO: implement ebf5_address here after i get the command for it working.
     def __init__(self, server_address: str | None = None, password: str | None = None) -> None:

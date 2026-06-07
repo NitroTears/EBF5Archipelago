@@ -33,7 +33,6 @@ class EpicBattleFantasy5World(World):
     web = EpicBattleFantasy5Web()
     options_dataclass = EpicBattleFantasy5Options
     options: EpicBattleFantasy5Options
-    
+
     item_name_to_id = build_item_name_to_id_table()
     location_name_to_id = build_location_name_to_id_table()
-    
