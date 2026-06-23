@@ -97,7 +97,7 @@ class EBF5AsyncSocket:
 
     def accept_connection_callback(self, sock: socket, mask):
         if self.does_client_exist():
-            logger.info("something attempted to connect while the previous EBF5 connection is still alive."
+            logger.info("Something attempted to connect while the previous EBF5 connection is still alive."
                 " Current connection will be kept and new connection will be closed.")
             instant_disconnecting_socket, _ = sock.accept()
             instant_disconnecting_socket.shutdown(SHUT_RDWR)

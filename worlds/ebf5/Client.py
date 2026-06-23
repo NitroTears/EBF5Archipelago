@@ -24,8 +24,9 @@ class EBF5CommandProcessor(ClientCommandProcessor):
 
     async def _cmd_connect_ebf5(self, address: str = ""):
         """
-        Start listening on `address` for incoming connections from EBF5. EBF5 will be disconnected if it is connected
-        when this command is used.
+        Start listening on `address` for incoming connections from EBF5.
+        Can be used more than once to change the address being listened to.
+        EBF5 will be disconnected if it is connected when this command is used.
 
         :param address: IPv4 address to start listening on. Defaults to `localhost:4999` if unspecified.
         """
@@ -47,7 +48,7 @@ class EBF5CommandProcessor(ClientCommandProcessor):
             return False
 
         if port < 0 or port > 65535:
-            logger.info("port numbers must be positive integers below 65535.")
+            self.output("Port numbers must be positive integers below 65535.")
             return False
         if port < 1024:
             logger.warning("Warning: Flash Player places restrictions on connecting to ports below 1024."
@@ -61,16 +62,16 @@ class EBF5CommandProcessor(ClientCommandProcessor):
         Disconnect EBF5 from the client if connected and stop listening for connections from EBF5.
         """
         if self.ctx.ebf5_socket.does_client_exist():
-            logger.info("disconnecting EBF5...")
+            self.output("Disconnecting EBF5...")
             self.ctx.ebf5_socket.schedule_client_disconnect()
         else:
-            logger.info("EBF5 already wasn't connected to the client.")
+            self.output("EBF5 already wasn't connected to the client.")
 
         if self.ctx.ebf5_socket.does_server_exist():
             self.ctx.ebf5_socket.disconnect_server()
-            logger.info("stopped listening for connections from EBF5.")
+            self.output("Stopped listening for connections from EBF5.")
         else:
-            logger.info("Client already wasn't listening for connections from EBF5.")
+            self.output("Client already wasn't listening for connections from EBF5.")
 
         return True
 
