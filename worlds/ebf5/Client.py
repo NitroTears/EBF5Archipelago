@@ -11,20 +11,16 @@ class EBF5CommandProcessor(ClientCommandProcessor):
     def __init__(self, ctx: EBF5Context):
         self.ctx = ctx
 
-    def _cmd_ebf5launchercomponenttest(self):
-        """Test command."""
-        self.output("_cmd_ebf5launchercomponenttest() was called successfully!")
+    # def _cmd_debug_unlock_item_test(self, client_item_name: str = ""):
+    #     """
+    #     Unlock an item in game, only for testing/debugging the client. This *does not* interface with AP at all.
+    #     """
+    #     if client_item_name == "":
+    #         self.output("specify an item name")
+    #         return False
 
-    def _cmd_debug_unlock_item_test(self, client_item_name: str = ""):
-        """
-        Unlock an item in game, only for testing/debugging the client. This *does not* interface with AP at all.
-        """
-        if client_item_name == "":
-            self.output("specify an item name")
-            return False
-
-        self.output("unimplemented")
-        return False
+    #     self.output("unimplemented")
+    #     return False
 
     async def _cmd_connect_ebf5(self, address: str = ""):
         """
