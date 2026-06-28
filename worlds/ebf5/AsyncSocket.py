@@ -79,7 +79,7 @@ class EBF5AsyncSocket:
 
     def add_utf8_message_to_send_queue(self, utf8_message: str) -> bool:
         """Add a message to the internal message send queue, to be sent later by the select loop.\n
-        ## Note: messages will not be added to the queue if `self.disconnect_scheduled` is `True`!\n
+        Note: messages will not be added to the queue if `self.disconnect_scheduled` is `True`!\n
         Messages also will not be added to the queue if the client socket doesn't exist.
 
         :return: Whether the message was added to the internal message send queue or not.
@@ -229,7 +229,7 @@ class EBF5AsyncSocket:
 
     def disconnect_server(self):
         if self.does_server_exist():
-            logger.debug("disconnecting server")
+            logger.debug("disconnecting server.")
             self.selector.unregister(self.server_sock)
             self.server_sock.shutdown(SHUT_RDWR)
             self.server_sock.close()
