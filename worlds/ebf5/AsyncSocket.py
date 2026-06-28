@@ -30,7 +30,6 @@ class EBF5AsyncSocket:
     async def start(self, host: str, port: int):
         if self.does_server_exist():
             self.disconnect_server()
-        # should automatically disconnecting the client here just be removed?
         if self.does_client_exist():
             logger.info("Disconnecting EBF5...")
             self.schedule_client_disconnect()
@@ -58,7 +57,8 @@ class EBF5AsyncSocket:
         self.server_sock.listen(1)
         self.server_sock.setblocking(False)
         logger.info(f"Started listening for connections from EBF5 on {host}:{port}.")
-        self.select_task = asyncio.create_task(self.select_loop(), name="EBF5AP socket select loop")
+        if self.select_task is None or (self.select_task is not None and self.select_task.done()):
+            self.select_task = asyncio.create_task(self.select_loop(), name="EBF5AP socket select loop")
 
         if self.timeouts_seconds >= 0:
             self.server_sock.settimeout(self.timeouts_seconds)
