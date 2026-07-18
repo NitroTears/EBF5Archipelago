@@ -34,6 +34,7 @@ if typing.TYPE_CHECKING:
     import argparse
 
 logger = logging.getLogger("Client")
+logging.basicConfig(level=logging.INFO)
 
 
 @Utils.cache_argsless

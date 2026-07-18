@@ -4,8 +4,13 @@ import logging
 import selectors
 from inspect import iscoroutinefunction
 from socket import AF_INET, SHUT_RDWR, SO_REUSEADDR, SOCK_STREAM, SOL_SOCKET, socket
+from sys import platform as sys_platform
 
 logger = logging.getLogger("Client")
+
+# Apparently on windows using shutdown on a socket that isn't actually connected throws an error.
+# So to be safe I'm just gonna, not use shutdown on windows I guess. There's probably a better way to handle that,
+# But it probably also involves touching the win32 API which I'd prefer not to.
 
 class EBF5AsyncSocket:
     def __init__(self, timeouts_seconds: float = 30):
@@ -100,7 +105,8 @@ class EBF5AsyncSocket:
             logger.info("Something attempted to connect while the previous EBF5 connection is still alive."
                 " Current connection will be kept and new connection will be closed.")
             instant_disconnecting_socket, _ = sock.accept()
-            instant_disconnecting_socket.shutdown(SHUT_RDWR)
+            if sys_platform != "win32": # I know this would be a uh, rather unlikely race condition, but still.
+                instant_disconnecting_socket.shutdown(SHUT_RDWR)
             instant_disconnecting_socket.close()
             return
         self.disconnect_scheduled = False
@@ -222,7 +228,8 @@ class EBF5AsyncSocket:
         if self.does_client_exist():
             logger.debug("closing client.")
             self.selector.unregister(self.client_sock)
-            self.client_sock.shutdown(SHUT_RDWR)
+            if sys_platform != "win32":
+                self.client_sock.shutdown(SHUT_RDWR)
             self.client_sock.close()
         else:
             logger.debug("client was already closed.")
@@ -231,7 +238,11 @@ class EBF5AsyncSocket:
         if self.does_server_exist():
             logger.debug("disconnecting server.")
             self.selector.unregister(self.server_sock)
-            self.server_sock.shutdown(SHUT_RDWR)
+            # oh boy, platform specific socket differences! ughhh...
+            # apparently windows is stricter than linux about using shutdown on a socket when it isn't actually connected.
+            # so to be safe I'm just gonna not `shutdown()` here at all on windows.
+            if sys_platform != "win32":
+                self.server_sock.shutdown(SHUT_RDWR)
             self.server_sock.close()
         else:
             logger.debug("_disconnect_server() when server was already closed.")
@@ -258,6 +269,12 @@ class EBF5AsyncSocket:
     async def select_loop(self):
         try:
             while True:
+                # For some reason on windows this is causing the underlying select.select() call to get OS errored
+                # with "[WinError 10022] An invalid argument was supplied", but like, I'd imagine that has to be a bug
+                # with the selectors library?
+                # The error doesn't seem to break or stop anything.
+                # It's only happening when we're closing the sockets and cleaning everything up anyway so I think it's fine.
+                # TO REPRODUCE: connect the game and client, use /disconnect_ebf5, then use /connect_ebf5
                 events = self.selector.select(timeout=0)
                 for selector_key, mask in events:
                     # It doesn't look very clear from this code but this callback comes from the data parameter of
