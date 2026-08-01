@@ -254,3 +254,14 @@ secrets = {
 pickups = {
 
 }
+
+def build_location_name_to_id_table():
+    # At time of writing, we don't have any secrets or pickups yet so I don't know how they'll be structured.
+    # So they aren't included.
+    location_datas = list(shop_items.values()) + list(chests.values())
+
+    location_name_to_id = {}
+    for i in range(len(location_datas)):
+        location_name_to_id[location_datas[i].game_id] = location_datas[i].id
+    
+    return location_name_to_id
