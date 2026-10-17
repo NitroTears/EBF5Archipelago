@@ -160,6 +160,8 @@ chests = { # Chest locations aren't visibly obvious, so I've written comments wi
     location_names.CHEST_DRAGON_ARMOR_CAVE_BEHIND_ENEMY_RIGHT: LocationData(0, "map166-chest1-item0", [EBF5LocationCategory.CHEST]),                    # C3(G04) - R05
     # location_names.CHEST_DRAGON_ARMOR_CAVE_BOTTOM: LocationData(0, "166-2-2", [EBF5LocationCategory.CHEST]),                                # C3(G04) - J10*
     location_names.CHEST_DRAGON_ARMOR_CAVE_CENTER: LocationData(0, "map166-chest2-item0", [EBF5LocationCategory.CHEST]),                                # C3(G04) - L06
+    location_names.CHEST_PHOENIX_ARCADE_BOTTOM_LEFT_0: LocationData(0, "map324-chest0-item0", [EBF5LocationCategory.CHEST]),                              # C3(G04) | A05 - C04
+    location_names.CHEST_PHOENIX_ARCADE_BOTTOM_LEFT_2: LocationData(0, "map324-chest0-item2", [EBF5LocationCategory.CHEST]),                              # C3(G04) | A05 - C04
     location_names.CHEST_INDYS_CAVE_BLOCK_PUZZLE_TOP: LocationData(0, "map167-chest0-item0", [EBF5LocationCategory.CHEST]),                             # C3(R07) - R05
     location_names.CHEST_INDYS_CAVE_BLOCK_PUZZLE_BOTTOM: LocationData(0, "map167-chest1-item0", [EBF5LocationCategory.CHEST]),                          # C3(R07) - R06
     # location_names.CHEST_INDYS_CAVE_ENEMY: LocationData(0, "167-3-2", [EBF5LocationCategory.CHEST]),                                        # C3(R07) - G03*
@@ -196,6 +198,9 @@ chests = { # Chest locations aren't visibly obvious, so I've written comments wi
     location_names.CHEST_HOPE_HARBOR_OUTSIDE_ICE_CAVE_MIDDLE: LocationData(0, "map24-chest4-item0", [EBF5LocationCategory.CHEST]),                      # D5 - N08
     # location_names.CHEST_HOPE_HARBOR_OUTSIDE_ICE_CAVE_RIGHT: LocationData(0, "24-4-5", [EBF5LocationCategory.CHEST]),                       # D5 - R08*
     # location_names.CHEST_HOPE_HARBOR_JOTUN_ROOM_BONE: LocationData(0, "24-5-6", [EBF5LocationCategory.SECRET]),                             # D5 - B01*
+    location_names.CHEST_HOPE_HARBOR_ARCADE_LEFT_0: LocationData(0, "map331-chest0-item0", [EBF5LocationCategory.CHEST]),                               # C2(H05) | H03 - D05
+    location_names.CHEST_HOPE_HARBOR_ARCADE_LEFT_1: LocationData(0, "map331-chest0-item1", [EBF5LocationCategory.CHEST]),                               # C2(H05) | H03 - D05
+    location_names.CHEST_HOPE_HARBOR_ARCADE_BOTTOM_LEFT: LocationData(0, "map331-chest1-item2", [EBF5LocationCategory.CHEST]),                          # C2(H05) | H03 - G08
     #   ICE CAVE
     location_names.CHEST_ICE_CAVE_ROOM_2_BEHIND_ENEMY: LocationData(0, "map19-chest2-item1", [EBF5LocationCategory.CHEST]),                             # D5(P06) | D4 - K09
     location_names.CHEST_ICE_CAVE_ROOM_3_BEHIND_ENEMY: LocationData(0, "map20-chest2-item0", [EBF5LocationCategory.CHEST]),                             # D5(P06) | E3 - S03
@@ -292,6 +297,7 @@ chests = { # Chest locations aren't visibly obvious, so I've written comments wi
     location_names.CHEST_RAINBOW_RIVER_STREAM_2_SECRET: LocationData(0, "map91-chest4-item1", [EBF5LocationCategory.CHEST]),                            # C6 - G04
     location_names.CHEST_RAINBOW_RIVER_STREAM_2_ENEMY: LocationData(0, "map91-chest3-item0", [EBF5LocationCategory.CHEST]),                             # C6 - Q06
     location_names.CHEST_RAINBOW_RIVER_STREAM_1_FROM_VALLEY: LocationData(0, "map90-chest2-item0", [EBF5LocationCategory.CHEST]),                       # B6 - C10
+    location_names.CHEST_RAINBOW_RIVER_ARCADE_REWARD_LEFT: LocationData(0, "map333-chest0-item1", [EBF5LocationCategory.CHEST]),                       # K5(O06) - F06
     # GREENWOOD VILLAGE
     location_names.CHEST_GREENWOOD_VILLAGE_FARM: LocationData(0, "map62-chest1-item1", [EBF5LocationCategory.CHEST]),                                   # J4 - H06
     location_names.CHEST_GREENWOOD_VILLAGE_BARN_LEFT: LocationData(0, "map172-chest0-item0", [EBF5LocationCategory.CHEST]),                             # J4(K03) - F05
@@ -350,7 +356,148 @@ chests = { # Chest locations aren't visibly obvious, so I've written comments wi
     location_names.CHEST_MYSTIC_WOODS_LEFT_TREE_LOWER_SPIKES: LocationData(0, "map178-chest0-item0", [EBF5LocationCategory.CHEST]),                     # F1(D04) - H02
     location_names.CHEST_MYSTIC_WOODS_LEFT_TREE_UPPER_HIDDEN_LEFT: LocationData(0, "map179-chest2-item0", [EBF5LocationCategory.CHEST]),                # F0(O05) - Q09
     location_names.CHEST_MYSTIC_WOODS_LEFT_TREE_UPPER_HIDDEN_RIGHT: LocationData(0, "map179-chest3-item0", [EBF5LocationCategory.CHEST]),               # F0(O05) - S09
-    location_names.CHEST_MYSTIC_WOODS_SHOP_BED: LocationData(0, "chest181-chest3-item0", [EBF5LocationCategory.SECRET]),                                  # H0(E08) - E08
+    location_names.CHEST_MYSTIC_WOODS_SHOP_BED: LocationData(0, "map181-chest3-item0", [EBF5LocationCategory.SECRET]),                                  # H0(E08) - E08
+    location_names.CHEST_MYSTIC_WOODS_ARCADE_REWARD_CHEST: LocationData(0, "map330-chest0-item0", [EBF5LocationCategory.SECRET]),                       # F1(O05) | N05 - H06
+    #   DEATHLY HOLLOWS
+    location_names.CHEST_DEATHLY_HOLLOWS_ENTRANCE_CENTER_HIDDEN: LocationData(0, "map191-chest0-item0", [EBF5LocationCategory.CHEST]),                  # D2(R02) - H06
+    location_names.CHEST_DEATHLY_HOLLOWS_TELPERION_REWARD_LOWER_LEFT: LocationData(0, "map190-chest1-item0", [EBF5LocationCategory.CHEST]),             # D2(R02) | E09 | L06 - C08
+    location_names.CHEST_DEATHLY_HOLLOWS_TELPERION_REWARD_BOTTOM: LocationData(0, "map190-chest2-item0", [EBF5LocationCategory.CHEST]),                 # D2(R02) | E09 | L06 - E11
+    location_names.CHEST_DEATHLY_HOLLOWS_TELPERION_REWARD_TOP: LocationData(0, "map190-chest3-item0", [EBF5LocationCategory.CHEST]),                    # D2(R02) | E09 | L06 - F04
+    location_names.CHEST_DEATHLY_HOLLOWS_TELPERION_ROOM_RIGHT: LocationData(0, "map190-chest5-item0", [EBF5LocationCategory.CHEST]),                    # D2(R02) | E09 | L06 - R07
+    location_names.CHEST_DEATHLY_HOLLOWS_RIGHT_ROOM_LEFT_CODE: LocationData(0, "map194-chest0-item0", [EBF5LocationCategory.CHEST]),                    # D2(R02) | E09 | T06 - E03
+    location_names.CHEST_DEATHLY_HOLLOWS_RIGHT_ROOM_RIGHT_CODE: LocationData(0, "map194-chest1-item0", [EBF5LocationCategory.CHEST]),                   # D2(R02) | E09 | T06 - Q06
+    location_names.CHEST_DEATHLY_HOLLOWS_LEFT_ROOM_PUZZLE: LocationData(0, "map192-chest1-item0", [EBF5LocationCategory.CHEST]),                        # D2(R02) | E09 | A05 - R04
+    location_names.CHEST_DEATHLY_HOLLOWS_BOTTOM_ROOM_SPIKES: LocationData(0, "map196-chest1-item0", [EBF5LocationCategory.CHEST]),                      # D2(R02) | E09 | O11 - R03
+    location_names.CHEST_DEATHLY_HOLLOWS_TOP_ROOM_PUZZLE: LocationData(0, "map195-chest2-item0", [EBF5LocationCategory.CHEST]),                         # D2(R02) | E09 | F00 - R04
+    #   FORGOTTEN RUINS
+    location_names.CHEST_FORGOTTEN_RUINS_ENTRANCE_TOP: LocationData(0, "map86-chest3-item0", [EBF5LocationCategory.CHEST]),                             # D1 - K01
+    location_names.CHEST_FORGOTTEN_RUINS_FLOWER_ROOM_TOP_LEFT: LocationData(0, "map87-chest0-item0", [EBF5LocationCategory.CHEST]),                     # D0 - B03
+    location_names.CHEST_FORGOTTEN_RUINS_FLOWER_ROOM_CODE_1: LocationData(0, "map87-chest2-item1", [EBF5LocationCategory.CHEST]),                       # D0 - J06
+    location_names.CHEST_FORGOTTEN_RUINS_FLOWER_ROOM_CODE_2: LocationData(0, "map87-chest4-item1", [EBF5LocationCategory.CHEST]),                       # D0 - K06
+    location_names.CHEST_FORGOTTEN_RUINS_FLOWER_ROOM_CODE_4: LocationData(0, "map87-chest5-item0", [EBF5LocationCategory.CHEST]),                       # D0 - K07
+    location_names.CHEST_FORGOTTEN_RUINS_FLOWER_ROOM_WINGED_BOOTS: LocationData(0, "map87-chest6-item1", [EBF5LocationCategory.CHEST]),                 # D0 - O01
+    location_names.CHEST_FORGOTTEN_RUINS_TEMPLE_ENTRANCE_TOP_LEFT: LocationData(0, "map88-chest0-item0", [EBF5LocationCategory.CHEST]),                 # E0 - E02
+    location_names.CHEST_FORGOTTEN_RUINS_TEMPLE_ENTRANCE_TOP_HIDDEN: LocationData(0, "map88-chest1-item1", [EBF5LocationCategory.CHEST]),               # E0 - G01
+    location_names.CHEST_FORGOTTEN_RUINS_TEMPLE_TOP_LEFT_LOCKED: LocationData(0, "map137-chest0-item0", [EBF5LocationCategory.CHEST]),                  # E0(M04) - B05
+    location_names.CHEST_FORGOTTEN_RUINS_TEMPLE_BOTTOM_LEFT_LOCKED: LocationData(0, "map137-chest1-item0", [EBF5LocationCategory.CHEST]),               # E0(M04) - B07
+    location_names.CHEST_FORGOTTEN_RUINS_TEMPLE_TOP_RIGHT_LOCKED: LocationData(0, "map137-chest2-item0", [EBF5LocationCategory.CHEST]),                 # E0(M04) - R05
+    location_names.CHEST_FORGOTTEN_RUINS_TEMPLE_BOTTOM_RIGHT_LOCKED: LocationData(0, "map137-chest3-item0", [EBF5LocationCategory.CHEST]),              # E0(M04) - R07
+    # FROZEN VALLEY
+    location_names.CHEST_FROZEN_VALLEY_C7_TOP_LEFT: LocationData(0, "map102-chest0-item0", [EBF5LocationCategory.CHEST]),                               # C7 - C01
+    location_names.CHEST_FROZEN_VALLEY_C8_BOTTOM_LEFT_HIDDEN: LocationData(0, "map105-chest2-item0", [EBF5LocationCategory.CHEST]),                     # C8 - C10
+    location_names.CHEST_FROZEN_VALLEY_C8_TENT: LocationData(0, "map105-chest7-item1", [EBF5LocationCategory.CHEST]),                                   # C8 - R07
+    location_names.CHEST_FROZEN_VALLEY_B8_TOP: LocationData(0, "map104-chest0-item1", [EBF5LocationCategory.CHEST]),                                    # B8 - M01
+    location_names.CHEST_FROZEN_VALLEY_B8_BLOCK_PUZZLE: LocationData(0, "map104-chest3-item0", [EBF5LocationCategory.CHEST]),                           # B8 - M01
+    location_names.CHEST_FROZEN_VALLEY_B7_BELOW_ICE: LocationData(0, "map101-chest0-item1", [EBF5LocationCategory.CHEST]),                              # B7 - O10
+    location_names.CHEST_FROZEN_VALLEY_A6_ABOVE_ICE: LocationData(0, "map89-chest2-item1", [EBF5LocationCategory.CHEST]),                               # A6 - K01
+    location_names.CHEST_FROZEN_VALLEY_A6_RIGHT: LocationData(0, "map89-chest3-item0", [EBF5LocationCategory.CHEST]),                                   # A6 - Q04
+    location_names.CHEST_FROZEN_VALLEY_A8_ABOVE_ICE: LocationData(0, "map103-chest0-item0", [EBF5LocationCategory.CHEST]),                              # A8 - Q01
+    location_names.CHEST_FROZEN_VALLEY_A9_BEHIND_MAMMOTH: LocationData(0, "map106-chest2-item0", [EBF5LocationCategory.CHEST]),                         # A9 - F10
+    location_names.CHEST_FROZEN_VALLEY_A7_BOTTOM_RIGHT_HIDDEN: LocationData(0, "map100-chest0-item1", [EBF5LocationCategory.CHEST]),                    # A7 - S09
+    location_names.CHEST_FROZEN_VALLEY_B9_SPIKED_BOOTS: LocationData(0, "map107-chest0-item1", [EBF5LocationCategory.CHEST]),                           # B9 - O03
+    location_names.CHEST_FROZEN_VALLEY_C9_POSEIDON_REWARD_1: LocationData(0, "map108-chest1-item0", [EBF5LocationCategory.CHEST]),                      # C9 - K08
+    location_names.CHEST_FROZEN_VALLEY_C9_POSEIDON_REWARD_2: LocationData(0, "map108-chest2-item0", [EBF5LocationCategory.CHEST]),                      # C9 - L08
+    location_names.CHEST_FROZEN_VALLEY_C9_POSEIDON_REWARD_3: LocationData(0, "map108-chest3-item0", [EBF5LocationCategory.CHEST]),                      # C9 - K10
+    location_names.CHEST_FROZEN_VALLEY_C9_POSEIDON_REWARD_4: LocationData(0, "map108-chest4-item0", [EBF5LocationCategory.CHEST]),                      # C9 - L10
+    location_names.CHEST_FROZEN_VALLEY_UNDERGROUND_BOTTOM: LocationData(0, "map327-chest0-item0", [EBF5LocationCategory.CHEST]),                        # A8(F04) - H10
+    location_names.CHEST_FROZEN_VALLEY_SPACE_ARCADE_LEFT: LocationData(0, "map328-chest0-item1", [EBF5LocationCategory.CHEST]),                         # A8(F04) | K10 - H10
+    # REDPINE TOWN
+    location_names.CHEST_REDPINE_LOWER_GRAVEYARD_TOP_RIGHT: LocationData(0, "map113-chest1-item0", [EBF5LocationCategory.CHEST]),                       # E8 - Q01
+    location_names.CHEST_REDPINE_ROKUS_HOUSE_BOTTOM_RIGHT: LocationData(0, "map116-chest1-item0", [EBF5LocationCategory.CHEST]),                        # E9 - P09
+    location_names.CHEST_REDPINE_OUTSIDE_MATERIAL_SHOP_TOP_RIGHT_HIDDEN: LocationData(0, "map111-chest1-item0", [EBF5LocationCategory.CHEST]),          # F7 - P03
+    location_names.CHEST_REDPINE_EQUIP_SHOP_BEHIND_LEFT_COUNTER: LocationData(0, "map168-chest2-item0", [EBF5LocationCategory.CHEST]),                  # D8(F05) - F05
+    location_names.CHEST_REDPINE_EQUIP_SHOP_BEHIND_RIGHT_COUNTER: LocationData(0, "map168-chest3-item0", [EBF5LocationCategory.CHEST]),                 # D8(F05) - Q05
+    location_names.CHEST_REDPINE_STABLE_BLOCK_PUZZLE: LocationData(0, "map186-chest0-item0", [EBF5LocationCategory.CHEST]),                             # F7(K04) - G06
+    location_names.CHEST_REDPINE_MAUSOLEUM_BOTTOM_LEFT: LocationData(0, "map187-chest1-item0", [EBF5LocationCategory.CHEST]),                           # E7(M06) - F09
+    location_names.CHEST_REDPINE_ARCADE_RIGHT: LocationData(0, "map321-chest0-item0", [EBF5LocationCategory.CHEST]),                                    # F9(S11) - L04
+    location_names.CHEST_REDPINE_ARCADE_LEFT: LocationData(0, "map321-chest1-item1", [EBF5LocationCategory.CHEST]),                                     # F9(S11) - G05
+    # CRYSTAL CAVERNS
+    location_names.CHEST_CRYSTAL_CAVERNS_VULCAN_ROOM_SECRET_ENTRANCE: LocationData(0, "map212-chest3-item0", [EBF5LocationCategory.CHEST]),             # F9(D03) | left, down, left, D04 - I09
+    location_names.CHEST_CRYSTAL_CAVERNS_VULCAN_REWARD_UPPER_0: LocationData(0, "map212-chest4-item0", [EBF5LocationCategory.CHEST]),                   # F9(D03) | left, down, left, D04 - N02
+    location_names.CHEST_CRYSTAL_CAVERNS_VULCAN_REWARD_UPPER_1: LocationData(0, "map212-chest4-item1", [EBF5LocationCategory.CHEST]),                   # F9(D03) | left, down, left, D04 - N02
+    location_names.CHEST_CRYSTAL_CAVERNS_VULCAN_REWARD_LOWER_0: LocationData(0, "map212-chest5-item0", [EBF5LocationCategory.CHEST]),                   # F9(D03) | left, down, left, D04 - P07
+    location_names.CHEST_CRYSTAL_CAVERNS_LEFT_2_BOTTOM_HIDDEN: LocationData(0, "map214-chest0-item0", [EBF5LocationCategory.CHEST]),                    # F9(D03) | left, down - D10
+    location_names.CHEST_CRYSTAL_CAVERNS_LEFT_2_PUZZLE_REWARD_LEFT: LocationData(0, "map214-chest1-item0", [EBF5LocationCategory.CHEST]),               # F9(D03) | left, down - G02
+    location_names.CHEST_CRYSTAL_CAVERNS_LEFT_1_PUZZLE_REWARD_RIGHT: LocationData(0, "map215-chest2-item0", [EBF5LocationCategory.CHEST]),              # F9(D03) | left - Q02
+    location_names.CHEST_CRYSTAL_CAVERNS_CENTER_TOP_MIDDLE: LocationData(0, "map216-chest1-item0", [EBF5LocationCategory.CHEST]),                       # F9(D03) - J02
+    location_names.CHEST_CRYSTAL_CAVERNS_RIGHT_1_TOP_MIDDLE_RIGHT: LocationData(0, "map217-chest2-item0", [EBF5LocationCategory.CHEST]),                # F9(D03) | right - K01
+    location_names.CHEST_CRYSTAL_CAVERNS_RIGHT_2_TOP_MIDDLE: LocationData(0, "map218-chest1-item0", [EBF5LocationCategory.CHEST]),                      # F9(D03) | right, right - L01
+    location_names.CHEST_CRYSTAL_CAVERNS_ICE_HYDRA_ROOM_TOP_HIDDEN: LocationData(0, "map219-chest0-item0", [EBF5LocationCategory.CHEST]),               # F9(D03) | right, right, right - M01
+    location_names.CHEST_CRYSTAL_CAVERNS_ICE_HYDRA_REWARD_TOP: LocationData(0, "map219-chest1-item0", [EBF5LocationCategory.CHEST]),                    # F9(D03) | right, right, right - M01
+    location_names.CHEST_CRYSTAL_CAVERNS_ICE_HYDRA_REWARD_RIGHT_MIDDLE: LocationData(0, "map219-chest4-item0", [EBF5LocationCategory.CHEST]),           # F9(D03) | right, right, right - M01
+    # THE RAPTURE
+    location_names.CHEST_RAPTURE_H8_BOTTOM_LEFT: LocationData(0, "map124-chest0-item0", [EBF5LocationCategory.CHEST]),                                  # H8 - D10
+    location_names.CHEST_RAPTURE_H8_TOP_SECRET: LocationData(0, "map124-chest1-item0", [EBF5LocationCategory.SECRET]),                                  # H8 - I02
+    location_names.CHEST_RAPTURE_G9_LEVER_CHEST: LocationData(0, "map128-chest3-item0", [EBF5LocationCategory.CHEST]),                                  # G9 - N08
+    location_names.CHEST_RAPTURE_G9_CLOUD_CHEST: LocationData(0, "map128-chest4-item0", [EBF5LocationCategory.CHEST]),                                  # G9 - I10
+    location_names.CHEST_RAPTURE_H9_CLOUD_CHEST: LocationData(0, "map129-chest4-item0", [EBF5LocationCategory.CHEST]),                                  # H9 - N09
+    location_names.CHEST_RAPTURE_I9_BEHIND_BLUE_CREEP: LocationData(0, "map130-chest0-item0", [EBF5LocationCategory.CHEST]),                            # I9 - B02
+    location_names.CHEST_RAPTURE_G7_BIG_HAMMER: LocationData(0, "map118-chest5-item1", [EBF5LocationCategory.CHEST]),                                   # G7 - P09
+    location_names.CHEST_RAPTURE_H7_CENTER_CHEST: LocationData(0, "map119-chest2-item0", [EBF5LocationCategory.CHEST]),                                 # H7 - J04
+    location_names.CHEST_RAPTURE_I7_TOP_LEFT: LocationData(0, "map120-chest1-item0", [EBF5LocationCategory.CHEST]),                                     # I7 - D01
+    location_names.CHEST_RAPTURE_BONE_HYDRA_CAVE_LIGHTS: LocationData(0, "map189-chest5-item0", [EBF5LocationCategory.CHEST]),                          # I7(F05) - D01
+    location_names.CHEST_RAPTURE_ARCADE_REWARD_LEFT_0: LocationData(0, "map326-chest0-item0", [EBF5LocationCategory.CHEST]),                            # I7(F05) | G09 - D01
+    location_names.CHEST_RAPTURE_ARCADE_REWARD_LEFT_1: LocationData(0, "map326-chest0-item1", [EBF5LocationCategory.CHEST]),                            # I7(F05) | G09 - D01
+    location_names.CHEST_RAPTURE_ARCADE_REWARD_RIGHT: LocationData(0, "map326-chest2-item0", [EBF5LocationCategory.CHEST]),                             # I7(F05) | G09 - S07
+    # LAVA LAKE
+    location_names.CHEST_LAVA_LAKE_J8_TOP_HIDDEN: LocationData(0, "map126-chest1-item0", [EBF5LocationCategory.CHEST]),                                 # J8 - I04
+    location_names.CHEST_LAVA_LAKE_K8_RIGHT: LocationData(0, "map127-chest5-item0", [EBF5LocationCategory.CHEST]),                                      # K8 - S08
+    location_names.CHEST_LAVA_LAKE_J9_TILE_PUZZLE: LocationData(0, "map131-chest0-item1", [EBF5LocationCategory.CHEST]),                                # J9 - D01
+    location_names.CHEST_LAVA_LAKE_K7_FROM_TOP: LocationData(0, "map122-chest3-item0", [EBF5LocationCategory.CHEST]),                                   # K7 - I04
+    location_names.CHEST_LAVA_LAKE_J7_CANDLE: LocationData(0, "map121-chest5-item1", [EBF5LocationCategory.CHEST]),                                     # J7 - Q02
+    # TEMPLE OF TRIALS
+    location_names.CHEST_TEMPLE_OF_TRIALS_MATTEUS_REWARD: LocationData(0, "map197-chest0-item0", [EBF5LocationCategory.CHEST]),                         # K7(O02) - C06
+    location_names.CHEST_TEMPLE_OF_TRIALS_NATALIA_REWARD: LocationData(0, "map197-chest1-item0", [EBF5LocationCategory.CHEST]),                         # K7(O02) - E05
+    location_names.CHEST_TEMPLE_OF_TRIALS_LANCELOT_REWARD: LocationData(0, "map197-chest2-item0", [EBF5LocationCategory.CHEST]),                        # K7(O02) - O05
+    location_names.CHEST_TEMPLE_OF_TRIALS_ANNABELLE_REWARD: LocationData(0, "map197-chest3-item0", [EBF5LocationCategory.CHEST]),                       # K7(O02) - Q06
+    location_names.CHEST_TEMPLE_OF_TRIALS_GOD_REWARD_LEFT: LocationData(0, "map199-chest0-item0", [EBF5LocationCategory.CHEST]),                         # K7(O02) | J05 - G06
+    location_names.CHEST_TEMPLE_OF_TRIALS_GOD_REWARD_RIGHT_0: LocationData(0, "map199-chest1-item0", [EBF5LocationCategory.CHEST]),                         # K7(O02) | J05 - M06
+    location_names.CHEST_TEMPLE_OF_TRIALS_GOD_REWARD_RIGHT_2: LocationData(0, "map199-chest1-item2", [EBF5LocationCategory.CHEST]),                         # K7(O02) | J05 - M06
+    # THE BEYOND
+    # There are no key item chests in the beyond
+    # GLITCH ZONE / THE VOID
+    location_names.CHEST_GLITCH_B9_BEHIND_DRAGON: LocationData(0, "map143-chest0-item1", [EBF5LocationCategory.CHEST]),                                 # B9(G10) - I07
+    location_names.CHEST_GLITCH_B9_FREE: LocationData(0, "map143-chest1-item0", [EBF5LocationCategory.CHEST]),                                          # B9(G10) - I07
+    location_names.CHEST_GLITCH_G5_BEHIND_CAT: LocationData(0, "map144-chest0-item0", [EBF5LocationCategory.CHEST]),                                    # G5(M11) - E07
+    location_names.CHEST_GLITCH_H2_BEHIND_BUSH: LocationData(0, "map145-chest0-item0", [EBF5LocationCategory.CHEST]),                                   # H2(H05) - C05
+    location_names.CHEST_GLITCH_B2_BEHIND_BOULDER: LocationData(0, "map146-chest0-item0", [EBF5LocationCategory.CHEST]),                                # B2(I05) - I08
+    location_names.CHEST_GLITCH_B2_BEHIND_BAT: LocationData(0, "map146-chest1-item0", [EBF5LocationCategory.CHEST]),                                    # B2(I05) - M04
+    location_names.CHEST_THE_VOID_REWARD_LEFT: LocationData(0, "map148-chest0-item1", [EBF5LocationCategory.CHEST]),                                   # D8(R02) | J0 - J07
+    location_names.CHEST_THE_VOID_REWARD_RIGHT: LocationData(0, "map148-chest2-item1", [EBF5LocationCategory.CHEST]),                                   # D8(R02) | J0 - L07
+    location_names.CHEST_THE_VOID_ROCKS_RIGHT: LocationData(0, "map148-chest3-item2", [EBF5LocationCategory.CHEST]),                                    # D8(R02) | J0 - L07
+    # THE GREAT SEA
+    location_names.CHEST_THE_SEA_SECRET_ROOM_WAIT: LocationData(0, "map301-chest0-item1", [EBF5LocationCategory.CHEST]),                                # lol - I04
+    location_names.CHEST_THE_SEA_ARCADE_REWARD_0: LocationData(0, "map301-chest0-item0", [EBF5LocationCategory.CHEST]),                                 # sea arcade room - J05
+    location_names.CHEST_THE_SEA_ARCADE_REWARD_1: LocationData(0, "map301-chest0-item1", [EBF5LocationCategory.CHEST]),                                 # sea arcade room - J05
+    location_names.CHEST_THE_SEA_ARCADE_HIDDEN: LocationData(0, "map301-chest1-item1", [EBF5LocationCategory.CHEST]),                                   # sea arcade room - J05
+    # DATA BUNKER
+    location_names.CHEST_DATA_BUNKER_UPPER_CABINET: LocationData(0, "map315-chest5-item0", [EBF5LocationCategory.SECRET]),                              # upper bunker - I03
+    location_names.CHEST_DATA_BUNKER_MIDDLE_SLIMES_REWARD_0: LocationData(0, "map316-chest1-item0", [EBF5LocationCategory.CHEST]),                      # middle bunker - B04
+    location_names.CHEST_DATA_BUNKER_MIDDLE_SLIMES_REWARD_2: LocationData(0, "map316-chest1-item2", [EBF5LocationCategory.CHEST]),                      # middle bunker - B04
+    location_names.CHEST_DATA_BUNKER_MIDDLE_TREES_REWARD_0: LocationData(0, "map316-chest2-item0", [EBF5LocationCategory.CHEST]),                       # middle bunker - H04
+    location_names.CHEST_DATA_BUNKER_MIDDLE_TREES_REWARD_1: LocationData(0, "map316-chest2-item1", [EBF5LocationCategory.CHEST]),                       # middle bunker - H04
+    location_names.CHEST_DATA_BUNKER_MIDDLE_TURTLES_REWARD_0: LocationData(0, "map316-chest3-item0", [EBF5LocationCategory.CHEST]),                     # middle bunker - B06
+    location_names.CHEST_DATA_BUNKER_MIDDLE_TURTLES_REWARD_2: LocationData(0, "map316-chest3-item2", [EBF5LocationCategory.CHEST]),                     # middle bunker - B06
+    location_names.CHEST_DATA_BUNKER_MIDDLE_BEES_REWARD_0: LocationData(0, "map316-chest4-item0", [EBF5LocationCategory.CHEST]),                        # middle bunker - H08
+    location_names.CHEST_DATA_BUNKER_MIDDLE_BEES_REWARD_1: LocationData(0, "map316-chest4-item1", [EBF5LocationCategory.CHEST]),                        # middle bunker - H08
+    location_names.CHEST_DATA_BUNKER_MIDDLE_SLINGERS_REWARD_0: LocationData(0, "map316-chest5-item0", [EBF5LocationCategory.CHEST]),                    # middle bunker - P03
+    location_names.CHEST_DATA_BUNKER_MIDDLE_SLINGERS_REWARD_2: LocationData(0, "map316-chest5-item2", [EBF5LocationCategory.CHEST]),                    # middle bunker - P03
+    location_names.CHEST_DATA_BUNKER_MIDDLE_CLAYS_REWARD_0: LocationData(0, "map316-chest6-item0", [EBF5LocationCategory.CHEST]),                       # middle bunker - R03
+    location_names.CHEST_DATA_BUNKER_MIDDLE_CLAYS_REWARD_1: LocationData(0, "map316-chest6-item1", [EBF5LocationCategory.CHEST]),                       # middle bunker - R03
+    location_names.CHEST_DATA_BUNKER_MIDDLE_FLOWERS_REWARD_0: LocationData(0, "map316-chest7-item0", [EBF5LocationCategory.CHEST]),                     # middle bunker - P06
+    location_names.CHEST_DATA_BUNKER_MIDDLE_FLOWERS_REWARD_2: LocationData(0, "map316-chest7-item2", [EBF5LocationCategory.CHEST]),                     # middle bunker - P06
+    location_names.CHEST_DATA_BUNKER_MIDDLE_CRYSTALS_REWARD_0: LocationData(0, "map316-chest8-item0", [EBF5LocationCategory.CHEST]),                    # middle bunker - S06
+    location_names.CHEST_DATA_BUNKER_MIDDLE_CRYSTALS_REWARD_1: LocationData(0, "map316-chest8-item1", [EBF5LocationCategory.CHEST]),                    # middle bunker - S06
+    location_names.CHEST_DATA_BUNKER_LOWER_EBF1AND2_REWARD: LocationData(0, "map317-chest2-item1", [EBF5LocationCategory.CHEST]),                       # lower bunker - D03
+    location_names.CHEST_DATA_BUNKER_LOWER_EBF3AND4_REWARD: LocationData(0, "map317-chest3-item1", [EBF5LocationCategory.CHEST]),                       # lower bunker - P03
+    # BATTLE ARENA
+    location_names.CHEST_BATTLE_ARENA_ENTRANCE_LEFT_REWARD: LocationData(0, "map313-chest0-item1", [EBF5LocationCategory.CHEST]),                       # arena entrance - E09
+    location_names.CHEST_BATTLE_ARENA_ENTRANCE_RIGHT_REWARD: LocationData(0, "map313-chest1-item1", [EBF5LocationCategory.CHEST]),                      # arena entrance - P09
+    location_names.CHEST_BATTLE_ARENA_MATT_REWARD: LocationData(0, "map314-chest0-item0", [EBF5LocationCategory.CHEST]),                                # arena rear - E03
+    location_names.CHEST_BATTLE_ARENA_NATALIE_REWARD: LocationData(0, "map314-chest1-item0", [EBF5LocationCategory.CHEST]),                             # arena rear - H03
+    location_names.CHEST_BATTLE_ARENA_LANCE_REWARD: LocationData(0, "map314-chest2-item0", [EBF5LocationCategory.CHEST]),                               # arena rear - K03
+    location_names.CHEST_BATTLE_ARENA_ANNA_REWARD: LocationData(0, "map314-chest3-item0", [EBF5LocationCategory.CHEST]),                                # arena rear - N03
+    location_names.CHEST_BATTLE_ARENA_NOLEGS_REWARD: LocationData(0, "map314-chest4-item0", [EBF5LocationCategory.CHEST]),                              # arena rear - Q03
 
 
 
