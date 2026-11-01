@@ -174,9 +174,9 @@ chests = { # Chest locations aren't visibly obvious, so I've written comments wi
     # location_names.CHEST_WILD_TROPICS_EQUIP_SHOP_BASEMENT_RIGHT: LocationData(0, "158-0-0", [EBF5LocationCategory.CHEST]),                  # C2(Q02) | C2 - P03*
     # location_names.CHEST_WILD_TROPICS_EQUIP_SHOP_BASEMENT_LEFT: LocationData(0, "158-1-1", [EBF5LocationCategory.CHEST]),                   # C2(Q02) | C2 - E04*
     location_names.CHEST_HOPE_HARBOR_EAST_COAST_1_ENEMY: LocationData(0, "map36-chest1-item0", [EBF5LocationCategory.CHEST]),                           # D2 - B02
-    # location_names.CHEST_AFTER_LAURELIN_LEFT: LocationData(0, "36-2-2", [EBF5LocationCategory.CHEST]),                                      # D2 - Q07*
-    location_names.CHEST_AFTER_LAURELIN_RIGHT: LocationData(0, "map36-chest3-item0", [EBF5LocationCategory.CHEST]),                                     # D2 - S07
-    location_names.CHEST_AFTER_LAURELIN_MIDDLE: LocationData(0, "map36-chest4-item0", [EBF5LocationCategory.CHEST]),                                    # D2 - R07
+    # location_names.CHEST_HOPE_HARBOR_AFTER_LAURELIN_LEFT: LocationData(0, "36-2-2", [EBF5LocationCategory.CHEST]),                                      # D2 - Q07*
+    location_names.CHEST_HOPE_HARBOR_AFTER_LAURELIN_RIGHT: LocationData(0, "map36-chest3-item0", [EBF5LocationCategory.CHEST]),                                     # D2 - S07
+    location_names.CHEST_HOPE_HARBOR_AFTER_LAURELIN_MIDDLE: LocationData(0, "map36-chest4-item0", [EBF5LocationCategory.CHEST]),                                    # D2 - R07
     # location_names.CHEST_HOPE_HARBOR_EAST_COAST_1_RAFT: LocationData(0, "36-5-5", [EBF5LocationCategory.CHEST]),                            # D2 - B02*
     location_names.CHEST_HOPE_HARBOR_EAST_COAST_2_BOTTOM_ENEMY: LocationData(0, "map32-chest1-item1", [EBF5LocationCategory.CHEST]),                    # D3 - S10
     location_names.CHEST_HOPE_HARBOR_EAST_COAST_2_BEHIND_TENT: LocationData(0, "map32-chest2-item0", [EBF5LocationCategory.CHEST]),                     # D3 - P04
