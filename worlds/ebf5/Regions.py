@@ -248,7 +248,7 @@ region_data: Dict[str, EBF5RegionData] = {
     ),
     'B4 Wild Tropics': EBF5RegionData(
         [
-            location_names.CHEST_WILD_TROPICS_ENTERANCE,
+            location_names.CHEST_WILD_TROPICS_ENTRANCE_TOP_RIGHT,
         ],
         [
             'A4 Wild Tropics',
@@ -277,10 +277,8 @@ region_data: Dict[str, EBF5RegionData] = {
     "B5 Matt's House": EBF5RegionData(
         [
             location_names.CHEST_MATTS_HOUSE_LEFT_SOCK_DRAWER,
-            location_names.CHEST_MATTS_HOUSE_OLD_BOOTS,
             location_names.CHEST_MATTS_HOUSE_OTHER_ROOM,
             location_names.CHEST_MATTS_HOUSE_RIGHT_SOCK_DRAWER,
-            location_names.CHEST_MATTS_HOUSE_SCOUTER,
         ],
         [
             'B5 Hope Harbor',
@@ -1804,7 +1802,8 @@ region_data: Dict[str, EBF5RegionData] = {
     ),
     'H5 Arcade Room': EBF5RegionData(
         [
-            location_names.CHEST_NO_MANS_LAND_ARCADE_ROOM,
+            location_names.CHEST_NO_MANS_LAND_ARCADE_ROOM_0,
+            location_names.CHEST_NO_MANS_LAND_ARCADE_ROOM_2,
         ],
         [
             "H5 No Man's Land",
