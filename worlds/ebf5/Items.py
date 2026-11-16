@@ -585,3 +585,13 @@ key_items = [
     # ItemData(5525, "valentine", [EBF5ItemCategory.KEY_ITEM, EBF5ItemCategory.SEASONAL], ItemClassification.useful),       # NOT A CHECK, dropped by Enemy
     # ItemData(5526, "easteregg", [EBF5ItemCategory.KEY_ITEM, EBF5ItemCategory.SEASONAL], ItemClassification.useful),       # NOT A CHECK, dropped by Enemy
 ]
+
+def build_item_name_to_id_table():
+    # Note that at time of writing, `Items.progression` isn't included here.
+    item_datas = list(equipment.values()) + list(cards.values()) + skills + crafting_items + food + boosters + key_items
+
+    item_name_to_id = {}
+    for i in range(len(item_datas)):
+        item_name_to_id[item_datas[i].game_id] = item_datas[i].id
+    return item_name_to_id
+
